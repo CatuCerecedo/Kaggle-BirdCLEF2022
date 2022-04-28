@@ -17,7 +17,7 @@ Esta competición busca nuevas ideas para la identificación especies de aves po
 ### 1. Descarga de los datos en la máquina local
 Para la descarga de los datos es necesario darse de alta como usuario en [Kaggle](www.kaggle.com). Una vez creado el usuario, se procederá a crear la API necesaria para poder descargar los datos de la competición. Todos los pasos necesarios para su creación y posterior descarga están descritos en la [kaggle API](https://github.com/Kaggle/kaggle-api) de Github. 
 
-Los datos se descargarán en Google Colab directamente desde la terminal de Miniconda mediante ```kaggle competitions download -c birdclef-2022```. 
+Los datos se descargarán en Google Colab mediante un comando mágico y junto al siguiente código: ```kaggle competitions download -c birdclef-2022```. 
 
 ### 2. EDA: lista de tareas
 A continuación se enlista las principales tareas a desarrollar para llevar a cabo el análisis exploratorio de los datos.
