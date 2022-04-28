@@ -35,5 +35,5 @@ A continuación se enlista las principales tareas a desarrollar para llevar a ca
 ### 4. Machine Learning
 ***En desarrollo***
 
-## Environment project\n",
+## Environment project
 Para el proyecto, creamos un *environment* que tiene que cumplir los requiesitos descritos en el archivo **requirements.txt**"
