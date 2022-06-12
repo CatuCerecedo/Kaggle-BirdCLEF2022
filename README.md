@@ -30,10 +30,14 @@ A continuación se enlista las principales tareas a desarrollar para llevar a ca
 - [x] Selección final de la base de datos.
 
 ### 3. Análisis sonoro: parametrización de los archivos de audio
-***En desarrollo***
+En este apartado, desarrollaremos las funciones necesarias para:
+- Leer archivos de audio
+- Visualizaciones mediante oscilogramas y espectrogramas
+- Limpieza de los sonidos de fondo
+La limpieza de los sonidos de fondo es uno de los grandes retos en los análisis de audio. Para la correcta identificación, eliminaremos los que se consideran como ruido estacionario (e.g., el viento).
 
 ### 4. Machine Learning
-***En desarrollo***
+Como modelo de clasificación se a escogido las Redes Neuronales Convucionales (CNN). esta metodología es muy utilizada en la clasificación de imágenes. Por ello, los audios se tranformarán en imágenes que representan tres dimensiones deñ sonido (el tiempo, la amplitud y la frecuencia).
 
 ## Environment project
 Para el proyecto, creamos un *environment* que tiene que cumplir los requiesitos descritos en el archivo **requirements.txt**"
