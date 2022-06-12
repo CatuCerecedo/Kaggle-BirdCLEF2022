@@ -37,7 +37,7 @@ En este apartado, desarrollaremos las funciones necesarias para:
 La limpieza de los sonidos de fondo es uno de los grandes retos en los análisis de audio. Para la correcta identificación, eliminaremos los que se consideran como ruido estacionario (e.g., el viento).
 
 ### 4. Machine Learning
-Como modelo de clasificación se a escogido las Redes Neuronales Convucionales (CNN). esta metodología es muy utilizada en la clasificación de imágenes. Por ello, los audios se tranformarán en imágenes que representan tres dimensiones deñ sonido (el tiempo, la amplitud y la frecuencia).
+Como modelo de clasificación se a escogido las Redes Neuronales Convucionales (CNN). Esta metodología es muy utilizada en la clasificación de imágenes. Por ello, los audios se tranformarán en imágenes que representan tres dimensiones del sonido (el tiempo, la amplitud y la frecuencia).
 
 ## Environment project
 Para el proyecto, creamos un *environment* que tiene que cumplir los requiesitos descritos en el archivo **requirements.txt**"
