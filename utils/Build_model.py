@@ -49,3 +49,30 @@ def build_model(input_shape):
 
   # Capa de salida
   model.add(Dense(21, activation='softmax'))
+
+  return model
+
+
+# Función para evluar el entrenamiento del modelo
+def plot_history(history):
+
+  # Gráficos de la accuracy y el loss del modelo
+  fig, axs = plt.subplots(1,2, figsize=(15, 5))
+
+  # Creamos el subplot de la accuracy
+  axs[0].plot(history.history["accuracy"], 'co', label="Training accuracy")
+  axs[0].plot(history.history["val_accuracy"], 'm', label="Validation accuracy")
+  axs[0].set_ylabel("Accuracy")
+  axs[0].set_xlabel("Epochs")
+  axs[0].set_title("Training and validation accuracy")
+  axs[0].legend(loc = 'lower right')
+
+  # Creamos el subplot de validación loss
+  axs[1].plot(history.history["loss"], 'co', label="Training loss")
+  axs[1].plot(history.history["val_loss"], 'm', label="Validation loss")
+  axs[1].set_ylabel("Loss")
+  axs[1].set_xlabel("Epochs")
+  axs[1].set_title("Training and validation loss")
+  axs[1].legend(loc = 'lower left')
+
+  plt.show()
