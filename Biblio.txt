@@ -1,5 +1,6 @@
 APA citation
 
-1. Sueur, J. (2018). Sound analysis and synthesis with R (p. 637). Cham: Springer.
+1. Sueur, J. (2018). Sound analysis and synthesis with R. Cham: Springer. 
 2. Mu, W., Yin, B., Huang, X., Xu, J., & Du, Z. (2021). Environmental sound classification using temporal-frequency attention based convolutional neural network. Scientific Reports, 11(1), 1-14.
 3. Ulloa, J. S., Haupert, S., Latorre, J. F., Aubin, T., & Sueur, J. (2021). scikit‐maad: an open‐source and modular toolbox for quantitative soundscape analysis in Python. Methods in Ecology and Evolution, 12(12), 2334-2340.
+4. Ketkar, N. (2017). Deep Learning with Python: A Hands-On Introduction. Apress: Berkeley, CA, USA.
