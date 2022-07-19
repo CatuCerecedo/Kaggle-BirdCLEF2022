@@ -54,7 +54,7 @@ def build_model(input_shape):
 
 
 # Función para evluar el entrenamiento del modelo
-def plot_history(history):
+def plot_history(history, save):
 
   # Gráficos de la accuracy y el loss del modelo
   fig, axs = plt.subplots(1,2, figsize=(15, 5))
@@ -76,3 +76,9 @@ def plot_history(history):
   axs[1].legend(loc = 'lower left')
 
   plt.show()
+
+  # Dpendiendo de si se quiere guardar
+  if save == False:
+      pass
+  else:
+      fig.savefig('Artist_mean_barplots.png', facecolor='white')
