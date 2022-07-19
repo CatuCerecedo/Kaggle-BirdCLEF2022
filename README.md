@@ -41,3 +41,6 @@ Como modelo de clasificación se a escogido las Redes Neuronales Recurrentes (RN
 
 ## Environment project
 Para el proyecto, creamos un *environment* que tiene que cumplir los requiesitos descritos en el archivo **requirements.txt**"
+
+## Licencia
+MIT
