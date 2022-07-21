@@ -42,5 +42,8 @@ Como modelo de clasificación se a escogido las Redes Neuronales Recurrentes (RN
 ## Environment project
 Para el proyecto, creamos un *environment* que tiene que cumplir los requiesitos descritos en el archivo **requirements.txt**"
 
+## Predicción
+En el archivo Outputs se encuentra los objetos necesarios (entre ellos el modelo desarrolado) para poder hacer una predicción. El archivo ejecutable es el denominado performace.py que devuelve un listado de especies clasificadas según el archivo de audio analizado.
+
 ## Licencia
 MIT
